@@ -6,6 +6,7 @@ import inquirer from "inquirer";
 //(3)Compare the one and two numbers.
 
 const randomNumber = Math.floor(Math.random() * 10 + 1);
+console.log("welcome to Number guessing game")
 
 const answer = await inquirer.prompt([
   {
